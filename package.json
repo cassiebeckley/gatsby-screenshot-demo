@@ -1,0 +1,20 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "description": "Gatsby hello world starter",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.141",
+    "gatsby-image": "^1.0.31",
+    "gatsby-plugin-screenshot": "file:../gatsby/packages/gatsby-plugin-screenshot",
+    "gatsby-plugin-sharp": "^1.6.24",
+    "gatsby-plugin-typography": "^1.7.10",
+    "gatsby-source-filesystem": "^1.5.11",
+    "gatsby-transformer-sharp": "^1.6.16",
+    "gatsby-transformer-yaml": "^1.5.14"
+  }
+}
