@@ -18,7 +18,7 @@ export default ({ data }) => (
           <a href={node.url}>
             <Img
               resolutions={
-                node.childScreenshot.imageFile.childImageSharp.resolutions
+                node.childScreenshot.screenshotFile.childImageSharp.resolutions
               }
               alt={node.name}
               className={styles.shadow}
@@ -38,7 +38,7 @@ export const query = graphql`
           url
           name
           childScreenshot {
-            imageFile {
+            screenshotFile {
               childImageSharp {
                 resolutions(width: 384, height: 288) {
                   ...GatsbyImageSharpResolutions

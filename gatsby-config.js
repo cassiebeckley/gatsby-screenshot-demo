@@ -1,13 +1,7 @@
 module.exports = {
   pathPrefix: "/gatsby-screenshot-demo",
   plugins: [
-    {
-      resolve: "gatsby-plugin-screenshot",
-      options: {
-        region: "us-west-2",
-        lambdaName: "screenshot",
-      },
-    },
+    "gatsby-transformer-screenshot",
     "gatsby-transformer-yaml",
 
     {

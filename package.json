@@ -10,7 +10,7 @@
   "dependencies": {
     "gatsby": "^1.9.141",
     "gatsby-image": "^1.0.31",
-    "gatsby-plugin-screenshot": "file:../gatsby/packages/gatsby-plugin-screenshot",
+    "gatsby-transformer-screenshot": "file:../gatsby/packages/gatsby-transformer-screenshot",
     "gatsby-plugin-sharp": "^1.6.24",
     "gatsby-plugin-typography": "^1.7.10",
     "gatsby-source-filesystem": "^1.5.11",
